@@ -1,11 +1,12 @@
 <h1>Thermostat Simulation System</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project is a simulation that lets a user control temperature while having heating and cooling modes. Two breadboards in this project contained connections and circuits. The first smaller breadboard had nine wires in it; the front wire was to turn the system on and off, the second wire was to turn the heating and cooling modes on and off (positive for heating mode and negative for cooling mode), and the last seven wires were binary wires that the user could use to input their desired temperature in. The second board contained the TMP36 temperature sensor circuit and 11 LEDs. The left seven LEDs showed the recorded temperature (from the TMP36 temperature sensor) of the room in binary; the next three LEDs showed if the system was in heating mode (red LED), if the fan was on or off (yellow LED), or if the cooling mode was on (green LED); and the last LED showed if the system was turned on or off. <br><br>
+If the user inputted a 
 <br />
 
 
-<h2>Sensors nad Electronics Used Used</h2>
+<h2>Sensors and Electronics Used</h2>
 
 - <b>Arduino Mega 2560</b> 
 - <b>TMP36 Temperature Sensor</b>
