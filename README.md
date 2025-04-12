@@ -12,7 +12,7 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 <h2>Challenges and Solutions</h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>The main challenge with this project was that for each TMP36 sensor that I used, they kept giving me bad readings that varied a lot. If I did this project again, I would invest in finding a more reliable temperature sensor. The sensor sometimes gave bad values, making the system do things it was not meant to do. To counter this, I would set variables inside the code to specific values so that the simulation could still be tested. Doing this, the simulation fully worked as intended. This only worked for the testing of this project, and, in the end, a good sensor would be the only thing that could entirely fix this problem.</b> (21H2)
 
 <h2>Program walk-through:</h2>
 
