@@ -13,7 +13,10 @@ If the user's desired temperature was less than 2 degrees (higher or lower) than
 
 <h2>Challenges and Solutions</h2>
 
-- <b>The main challenge with this project was that for each TMP36 sensor that I used, they kept giving me bad readings that varied a lot. If I did this project again, I would invest in finding a more reliable temperature sensor. The sensor sometimes gave bad values, making the system do things it was not meant to do. To counter this, I would set variables inside the code to specific values so that the simulation could still be tested. Doing this, the simulation fully worked as intended. This only worked for the testing of this project, and, in the end, a good sensor would be the only thing that could entirely fix this problem.</b> 
+- <b>A big challenge with this project was that for each TMP36 sensor that I used, they kept giving me bad readings that varied a lot. If I did this project again, I would invest in finding a more reliable temperature sensor. The sensor sometimes gave bad values, making the system do things it was not meant to do. To counter this, I would set variables inside the code to specific values so that the simulation could still be tested. Doing this, the simulation fully worked as intended. This only worked for the testing of this project, and, in the end, a good sensor would be the only thing that could entirely fix this problem.
+-<br><br>
+Another small challenge I had to deal with was coding the system to have a 30 cooldown every time the mode was switched from heating to cooling or vice versa. At the start of the project, the system only knew when it was in heating or cooling mode, but it did not know that it might have just been switched to the mode just then, so it would not know when to have a cooldown. The fix to this was to put a variable called "lastmode" in every part of my code. This variable would change from 0-1 based on whether its previous mode was different or not. For each scenario that this system could have, it has a choice between 2 options: one where the previous mode is the same, and one where the previous mode is different.
+- </b> 
 
 <h2>Photos</h2>
 
